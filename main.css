@@ -13,3 +13,8 @@ nav ul {
 nav li {
     display: inline-block;
 }
+
+
+nav {
+    background-color: #3f1453;
+}

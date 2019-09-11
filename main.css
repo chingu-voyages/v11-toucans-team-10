@@ -33,4 +33,5 @@ nav li a {
 
 #robot {
     background: rgb(221, 228, 196);
+    border-radius: 50%;
 }

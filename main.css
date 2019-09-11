@@ -26,3 +26,11 @@ nav li a {
     text-decoration: none;
     padding: 10px 25px;
 }
+
+/*Tickybot About Style */
+
+.tickybot-about {}
+
+#robot {
+    background: rgb(221, 228, 196);
+}

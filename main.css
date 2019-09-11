@@ -1,4 +1,10 @@
-/*Nav CSS*/
+/*HTML Style*/
+html {
+    width: 100%;
+    
+}
+
+/*Nav Style*/
 
 nav ul {
     list-style-type: none;

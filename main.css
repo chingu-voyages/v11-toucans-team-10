@@ -18,10 +18,11 @@ nav li {
 nav {
     background-color: #3f1453;
     text-align: right;
-    
+
 
 }
 
 nav li a {
     color: white;
+    display: inline-block;
 }

@@ -29,7 +29,10 @@ nav li a {
 
 /*Tickybot About Style */
 
-.tickybot-about {}
+.tickybot-about {
+    background: rgb(238, 247, 214);
+
+}
 
 #robot {
     background: rgb(221, 228, 196);

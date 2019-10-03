@@ -31,16 +31,14 @@ nav li a {
 
 .tickybot-home {
     background: rgb(230, 222, 255);
-    display: flexbox;
+    display: inline-flex;
 }
 
 #robot {
     border-radius: 50%;
 }
 
-#home-container {
-    float: right;
-}
+
 
 /*Tickybot layer 3 About Styles */
 

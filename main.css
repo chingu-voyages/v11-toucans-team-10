@@ -43,6 +43,15 @@ nav li a {
     color: #3f1453;
 }
 
+.tickybot-home p {
+    color: darkgreen;
+    font-style: italic;
+}
+
+#home-container {
+    padding-right: 10%;
+
+}
 /*Tickybot layer 3 About Styles */
 
 

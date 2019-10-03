@@ -37,6 +37,7 @@ nav li a {
 
 #robot {
     border-radius: 50%;
+    height: 500px;
 }
 
 .tickybot-home h1 {

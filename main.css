@@ -32,6 +32,7 @@ nav li a {
 .tickybot-home {
     background: rgb(230, 222, 255);
     display: inline-flex;
+    text-align: right;
 }
 
 #robot {

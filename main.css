@@ -10,6 +10,11 @@ padding: 0;
 
 }
 
+/*Mobile styles*/
+@media only screen and (max-width:400px) {
+
+    
+}
 
 /*Layer 1 Nav Style*/
 

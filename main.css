@@ -43,6 +43,10 @@ nav li a {
     font-size: 3rem;
 }
 
+em{
+font-weight: lighter;
+
+}
 #robot {
     border-radius: 50%;
     height: 500px;

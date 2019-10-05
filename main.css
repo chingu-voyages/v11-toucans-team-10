@@ -16,6 +16,10 @@ padding: 0;
     
 }
 
+/*Tablet styles*/
+@media only screen and (min-width:401px) and (max-width:960px) {
+
+
 /*Layer 1 Nav Style*/
 
 nav ul {

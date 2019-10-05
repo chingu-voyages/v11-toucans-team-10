@@ -45,8 +45,17 @@ nav li a {
 
 em{
 font-weight: lighter;
-
 }
+
+.tickystyle h1 {
+
+width: 387px;
+left: 1366px;
+height: 120px;
+text-align: left;
+letter-spacing: 4.5px;
+}
+
 #robot {
     border-radius: 50%;
     height: 500px;

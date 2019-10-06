@@ -24,6 +24,11 @@ padding: 0;
 @media only screen and (min-width:961px) {
 }
 
+
+.tickybot-body {
+display: flex;
+
+}
 /*Layer 1 Nav Style*/
 
 nav ul {

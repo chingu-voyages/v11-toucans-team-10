@@ -58,9 +58,10 @@ nav li a {
 
 .tickybot-home {
     background: rgb(193, 197, 228);
-    display: inline-flex;
+    display: flex;
     text-align: right;
     font-size: 3rem;
+
 }
 
 em{

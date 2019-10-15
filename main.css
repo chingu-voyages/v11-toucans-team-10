@@ -75,6 +75,10 @@ text-align: center;
 letter-spacing: 4.5px;
 }
 
+.styleWeight {
+    font-weight: normal;
+}
+
 #robot {
     border-radius: 50%;
     height: 480px;
@@ -191,6 +195,11 @@ font-size: 20px;
 padding-left: 35px;
 padding-top: 30px;
 
+}
+
+.changeColour{
+    color: red;
+    font-style: italic;
 }
 
 /*Tickybot layer 5 Add to Slack Styles */

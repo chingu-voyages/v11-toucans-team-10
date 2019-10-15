@@ -63,6 +63,15 @@ nav li a {
     font-size: 2rem;
 }
 
+.about-content {
+    display: inline-flex;
+    padding: 2% 3% 2% 3%;
+}
+
+.paragraphOne {
+    padding: 0px 100px 0px 20px;
+}
+
 /*Tickybot layer 4 Features Styles */
 
 

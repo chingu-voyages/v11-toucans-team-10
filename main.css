@@ -11,18 +11,21 @@ padding: 0;
 }
 
 /*Mobile styles*/
-@media only screen and (max-width:400px) {
-
-    
+@media only screen and (max-width: 400px) {
+    .tickybot-about {
+        background-color: #F09A9D; /* Red */
+      }
 }
 
-/*Tablet styles*/
+/*Tablet styles
 @media only screen and (min-width:401px) and (max-width:960px) {
 }
 
-/*Desktop styles*/
-@media only screen and (min-width:961px) {
-}
+/*Desktop styles
+@media screen (min-width:961px) {
+
+    
+}*/
 
 
 .tickybot-body {
@@ -57,25 +60,18 @@ nav li a {
 /*Tickybot layer 2 Home Style */
 
 .tickybot-home {
-    background: rgb(193, 197, 228);
-    display: flex;
-    text-align: right;
+    background: rgb(193, 197, 228);   
     font-size: 3rem;
     width: 100%;
     height:501px;
-
+    display: flex;    
 }
 
-em{
-font-weight: lighter;
-}
 
-.tickystyle h1 {
+.tickystyle {
 
-width: 387px;
-left: 1366px;
 height: 120px;
-text-align: left;
+text-align: center;
 letter-spacing: 4.5px;
 }
 
@@ -91,14 +87,26 @@ letter-spacing: 4.5px;
 
 .tickybot-home p {
     color: darkgreen;
-    font-style: italic;
+    font-style: normal;
+    font-size: 35px;
+    margin-top: 15px;
+    text-align: center;
+
 }
 
-#home-container {
-    padding-right: 10%;
+.home-container {
     padding-top: 64px;
+    margin-left: 80px;
 
 }
+
+.add-to-slack {
+
+    margin-top: 50px;
+    text-align: center;
+}
+
+
 /*Tickybot layer 3 About Styles */
 
 .tickybot-about h1 {

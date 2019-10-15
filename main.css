@@ -88,7 +88,7 @@ letter-spacing: 4.5px;
 .tickybot-home p {
     color: darkgreen;
     font-style: normal;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 15px;
     text-align: center;
 
@@ -114,8 +114,39 @@ letter-spacing: 4.5px;
     text-align: center;
     text-decoration: underline red;
     font-size: 2rem;
+    margin-top: 15px;
 }
 
+.paragraphsAbout {
+display: flex;
+justify-content: space-around;
+font-size: 30px;
+
+
+}
+.paragraphOne {
+width: 600px;
+margin-left: 30px;
+margin-top: 40px;
+text-align: justify;
+}
+
+.paragraphTwo { 
+width: 600px;
+margin-right: 30px;
+margin-top: 40px;
+text-align: justify;
+}
+
+.paragraphThree {
+text-align: center;
+font-size: 25px;
+margin-top: 20px;
+font-style: italic;
+margin-left: 30px;
+margin-right: 30px;
+
+}
 /*Tickybot layer 4 Features Styles */
 
 

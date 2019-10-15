@@ -72,6 +72,13 @@ nav li a {
     padding: 0px 100px 0px 20px;
 }
 
+.centerText {
+    display: inline-flex;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-style: italic;
+}
+
 /*Tickybot layer 4 Features Styles */
 
 

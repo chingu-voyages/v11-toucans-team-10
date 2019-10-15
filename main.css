@@ -86,7 +86,7 @@ letter-spacing: 4.5px;
 }
 
 .tickybot-home p {
-    color: darkgreen;
+    color: black;
     font-style: normal;
     font-size: 30px;
     margin-top: 15px;
@@ -152,7 +152,7 @@ margin-right: 30px;
 .tickybot-features{
 background-color: rgb(193, 197, 228);
 width: 100%;
-height: 520px;
+height: 620px;
 
 }
 
@@ -165,13 +165,60 @@ height: 520px;
 
 }
 
+.featureBoxes{
+    display: flex;
+    justify-content: space-around;
+}
 
+.featureBoxOne, .featureBoxTwo,.featureBoxThree {
+
+    width: 300px;
+    background-color: #3f1453;
+    height: 400px;
+    margin-top: 80px;
+}
+
+.BoxOnetext, .BoxTwotext, .BoxThreetext {
+margin-top: 60px;
+background-color: white;
+height: 150px;
+
+}
+
+.BoxOneImage img, .BoxTwoImage img, .BoxThreeImage img {
+padding-left: 35px;
+padding-top: 30px;
+
+}
 
 /*Tickybot layer 5 Add to Slack Styles */
+.tickybot-add-to-slack{
+    width: 100%;
+    height: 450px;
+}
 
+.tickybot-add-to-slack h1 {
 
+    color: green;
+    text-align: center;
+    text-decoration: underline red;
+    font-size: 2rem;
+    margin-top: 15px;
 
+}
 
+.tickybot-add-to-slack p{
+    text-align: center;
+    font-size: 30px;
+    margin: 35px 55px;
+    
+
+}
+
+.slackImage2{
+
+    text-align: center;
+}
 /*Tickybot Footer Style */
 footer {
     text-align: center;

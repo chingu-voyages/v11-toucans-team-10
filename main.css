@@ -2,6 +2,7 @@
 html {
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 /*Reset Margins-padding*/
 * {
@@ -11,12 +12,12 @@ padding: 0;
 }
 
 /*Mobile styles*/
-@media only screen and (max-width: 400px) {
-    .tickybot-about {
-        background-color: #F09A9D; /* Red */
+
+@media only screen and (max-width: 424px) { 
+    .paragraphsAbout {
+        background-color: red;
       }
 }
-
 /*Tablet styles
 @media only screen and (min-width:401px) and (max-width:960px) {
 }

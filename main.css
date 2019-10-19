@@ -173,6 +173,13 @@ height: 350px;
 
 }
 
+@media screen and (max-width:600px) { 
+    
+    .tickybot-about {
+        height: 550px;  
+    }
+}
+
 .tickybot-about h1 {
     color: darkgreen;
     text-align: center;
@@ -181,13 +188,24 @@ height: 350px;
     margin-top: 15px;
 }
 
+
+
 .paragraphsAbout {
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
 font-size: 25px;
 
-
 }
+
+@media screen and (max-width:600px) { 
+    
+    .paragraphsAbout {
+        flex-wrap: wrap;
+        justify-content: center;   
+        }
+}
+
 .paragraphOne {
 width: 550px;
 margin-left: 20px;
@@ -202,6 +220,20 @@ margin-top: 40px;
 text-align: justify;
 }
 
+@media screen and (max-width:600px) { 
+    
+    .paragraphOne, .paragraphTwo {
+        width: 100%;
+        margin: 10px;
+         
+        }
+    
+        .paragraphTwo { 
+            
+            margin-top: 45px;
+         
+        }
+}
 .about-content {
     display: inline-flex;
     padding: 2% 3% 2% 3%;
@@ -217,6 +249,17 @@ text-align: justify;
     text-align: center;
 }
 
+@media screen and (max-width:600px) { 
+    
+    .centerText {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-style: italic;
+        margin-top: 10%;
+        text-align: center;  
+        }
+}
+
 /*Tickybot layer 4 Features Styles */
 
 .tickybot-features{
@@ -228,11 +271,13 @@ height: 620px;
 
 @media screen and (max-width:600px) { 
     
-    .tickybot-features {
-        background-color: red;
-        height: 700px;
-      }
+    .tickybot-features{
+        background-color: rgb(193, 197, 228);
+        width: 100%;
+        height: 1550px;
+    }
 }
+
 
 .tickybot-features h1 {
     color: green;
@@ -243,9 +288,24 @@ height: 620px;
 
 }
 
+@media screen and (max-width:600px) { 
+    
+    .tickybot-features h1 {
+        margin-top: 25px;
+    }
+}
+
 .featureBoxes{
     display: flex;
     justify-content: space-around;
+}
+
+@media screen and (max-width:600px) { 
+    
+    .featureBoxes{
+        flex-wrap: wrap;
+        width: 100%;
+    }
 }
 
 .featureBoxOne, .featureBoxTwo,.featureBoxThree {
@@ -281,6 +341,15 @@ padding-top: 30px;
     width: 100%;
     height: 450px;
 }
+
+@media screen and (max-width:600px) { 
+    
+    .tickybot-add-to-slack{
+        width: 100%;
+        height: 650px;
+    }
+}
+
 
 .tickybot-add-to-slack h1 {
 

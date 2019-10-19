@@ -13,11 +13,7 @@ padding: 0;
 
 /*Mobile styles*/
 
-@media only screen and (max-width: 424px) { 
-    .paragraphsAbout {
-        background-color: red;
-      }
-}
+
 /*Tablet styles
 @media only screen and (min-width:401px) and (max-width:960px) {
 }
@@ -36,7 +32,7 @@ flex-wrap: wrap;
 }
 /*back to top button styles*/
 #myBtn {
-  
+  display: block;
   position: fixed;
   bottom: 15px;
   right: 30px;
@@ -77,6 +73,13 @@ nav li a {
     padding: 10px 25px;
 }
 
+@media screen and (max-width:600px) { 
+    
+    nav li a {
+        padding: 10px 15px;
+    }
+}
+
 /*Tickybot layer 2 Home Style */
 
 .tickybot-home {
@@ -87,6 +90,15 @@ nav li a {
     display: flex;    
 }
 
+@media screen and (max-width:600px) { 
+    
+    .tickybot-home {
+        height:850px;
+        align-items: center;
+        justify-content: center; 
+        flex-direction: column-reverse;  
+    }
+}
 
 .tickystyle {
 
@@ -94,6 +106,16 @@ height: 120px;
 text-align: center;
 letter-spacing: 4.5px;
 }
+
+@media screen and (max-width:600px) { 
+    
+    .tickystyle {
+
+        height: 100px;
+        text-align: none;
+        }
+}
+
 
 .styleWeight {
     font-weight: normal;
@@ -103,6 +125,14 @@ letter-spacing: 4.5px;
     border-radius: 50%;
     height: 480px;
     display: flex;
+}
+
+@media screen and (max-width:600px) { 
+    
+    #robot {
+        height: 420px;
+        padding-left: 20%;
+    }
 }
 
 .tickybot-home h1 {
@@ -123,6 +153,12 @@ letter-spacing: 4.5px;
     margin-left: 80px;
 
 }
+@media screen and (max-width:600px) { 
+    
+    .home-container {
+        padding-top: 30px;
+        }
+}
 
 .add-to-slack {
 
@@ -136,6 +172,7 @@ letter-spacing: 4.5px;
 height: 350px;
 
 }
+
 .tickybot-about h1 {
     color: darkgreen;
     text-align: center;
@@ -187,6 +224,14 @@ background-color: rgb(193, 197, 228);
 width: 100%;
 height: 620px;
 
+}
+
+@media screen and (max-width:600px) { 
+    
+    .tickybot-features {
+        background-color: red;
+        height: 700px;
+      }
 }
 
 .tickybot-features h1 {
